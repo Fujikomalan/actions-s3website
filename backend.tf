@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    key    = "terraform.tfstate"
-    bucket = "terraform.trainingdevops.cloud"
-    region = "us-east-2"
+    key    = "terraform.tfstate1"
+    bucket = "tfstate.blesson.shop"
+    region = "ap-south-1"
   }
 }
